@@ -16,7 +16,7 @@ const SENDER_KEY = 'dotacion_sender_name';
 
 export default function App() {
   const [companies, setCompanies] = useState<Company[]>([]);
-  const [senderName, setSenderName] = useState(() => localStorage.getItem(SENDER_KEY) || 'Dotaciones Industriales');
+  const [senderName, setSenderName] = useState(() => localStorage.getItem(SENDER_KEY) || 'Dotaciones El Manantial');
   const [showForm, setShowForm] = useState(false);
   const [editCompany, setEditCompany] = useState<Company | undefined>();
   const [sendTargets, setSendTargets] = useState<Company[] | null>(null);
