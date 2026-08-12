@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# tiktok-factory: llaves y material renderizado (pesa y se rehace)
+tiktok-factory/.env
+tiktok-factory/output/
+tiktok-factory/**/__pycache__/
+*service-account*.json

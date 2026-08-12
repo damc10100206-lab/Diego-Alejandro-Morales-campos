@@ -1,0 +1,47 @@
+{
+  "serie_slug": "arriendo-barato",
+  "parte": 1,
+  "continuidad_global": "Casa de barrio popular colombiano, tres pisos, fachada de ladrillo sin pañetar, reja negra. Interior con piso de baldosa gris y paredes color hueso, muebles pocos y viejos, cajas de trasteo aún sin abrir. Patio trasero pequeño, cerrado con muro alto de ladrillo, piso de TIERRA sin una sola planta, siempre húmeda. Domingo, 6:00 p.m., luz amarilla anaranjada de atardecer entrando de lado. Dueño: hombre de 60, camisa de cuadros metida en el pantalón, zapatos de cuero, balde plástico azul. Grabado con celular de gama media 2017: video comprimido, grano en las sombras, temblor leve de mano, foco que busca.",
+  "negativos_globales": "sin texto, sin letras, sin logos, sin subtítulos, sin caras en primer plano hablando a cámara, sin movimiento de cámara cinematográfico, sin dron, sin slow motion, sin colores saturados, sin sangre, sin multitudes, sin manos manipulando objetos pequeños, sin plantas en el patio, sin look publicitario, sin iluminación de estudio",
+  "planos": [
+    {"n": 1, "t_ini": 0.0, "t_fin": 8.0, "enunciados": [1, 2],
+     "prompt": "Grabado con celular de gama media en 2017, video comprimido, grano en las sombras, temblor leve de mano. Fachada de una casa de tres pisos en un barrio popular colombiano: ladrillo sin pañetar, reja negra oxidada, ventanas de aluminio, cables cruzando la calle. Domingo a las 6:00 p.m., luz amarilla anaranjada de atardecer pegando de lado en el ladrillo. Plano fijo desde el andén de enfrente, lente 28mm, altura de pecho. La cámara solo corrige el encuadre una vez. Calle vacía.",
+     "audio_prompt": "calle de barrio en domingo: un carro lejano, un pájaro, un televisor a través de una pared, sin música",
+     "continuidad": "fachada de ladrillo, reja negra, luz amarilla de las 6 p.m."},
+
+    {"n": 2, "t_ini": 8.0, "t_fin": 16.0, "enunciados": [3, 4],
+     "prompt": "Grabado con celular 2017, comprimido, grano visible. Interior de una sala vacía recién ocupada: piso de baldosa gris, paredes color hueso con marcas de cuadros que ya no están, cinco cajas de trasteo cerradas apiladas en una esquina, un sofá viejo solo. Luz amarilla de atardecer entrando por una ventana sin cortina, dibujando el marco en el piso. Plano fijo, lente 28mm, cámara a la altura del pecho, sin movimiento. Nadie en cuadro.",
+     "audio_prompt": "casa vacía con eco leve, un reloj de pared, tráfico lejano por la ventana abierta",
+     "continuidad": "cajas de trasteo, baldosa gris, luz de ventana en el piso"},
+
+    {"n": 3, "t_ini": 16.0, "t_fin": 24.0, "enunciados": [5, 6],
+     "prompt": "Grabado con celular 2017, video comprimido con grano. Patio trasero pequeño de casa de barrio, cerrado por un muro alto de ladrillo sin pañetar. El piso es TIERRA oscura y húmeda, completamente pelada: no hay una sola planta, ni matera, ni pasto, ni hoja. Una manguera enrollada y seca colgada de un clavo en el muro, sin usar. Luz amarilla de atardecer cayendo desde arriba del muro, media sombra. Plano fijo desde la puerta de la cocina, lente 28mm. Sin movimiento de cámara.",
+     "audio_prompt": "patio cerrado: eco corto, una gotera lenta, un avión muy lejano, ningún pájaro",
+     "continuidad": "patio de tierra pelada y húmeda, muro alto, manguera seca en el clavo"},
+
+    {"n": 4, "t_ini": 24.0, "t_fin": 32.0, "enunciados": [7],
+     "prompt": "Grabado con celular 2017, comprimido, grano en sombras. Detalle sobre una mesa de comedor de madera rayada: un contrato de arrendamiento impreso de dos hojas, un esfero negro encima, y un juego de tres llaves con una argolla de alambre. No se ve texto legible en el papel, solo la textura de la hoja. Luz amarilla de ventana de lado. Plano fijo cerrado desde arriba, lente 35mm, ligero temblor de mano.",
+     "audio_prompt": "papel moviéndose, llaves tintineando una vez, una silla arrastrándose en otro cuarto",
+     "continuidad": "mesa de madera rayada, tres llaves con argolla de alambre"},
+
+    {"n": 5, "t_ini": 32.0, "t_fin": 40.0, "enunciados": [8, 9],
+     "prompt": "Grabado con celular 2017, video comprimido. Pasillo interior de la casa visto desde el segundo piso hacia abajo, por el hueco de la escalera: se ve de espaldas y desde arriba a un hombre de 60 años con camisa de cuadros metida en el pantalón, caminando por el pasillo de baldosa hacia el fondo de la casa, sin detenerse. Nunca se le ve la cara. Luz amarilla de atardecer al final del pasillo. Plano fijo desde arriba, lente 28mm, la cámara se esconde un poco tras el barandal.",
+     "audio_prompt": "pasos de zapato de cuero sobre baldosa, alejándose; una puerta de reja al fondo; nadie habla",
+     "continuidad": "hombre de camisa de cuadros de espaldas, pasillo de baldosa, luz al fondo"},
+
+    {"n": 6, "t_ini": 40.0, "t_fin": 48.0, "enunciados": [10, 11],
+     "prompt": "Grabado con celular 2017, comprimido, grano visible. Plano desde detrás del vidrio sucio de la puerta de la cocina hacia el patio de tierra: en el centro del patio, un balde plástico azul apoyado en la tierra, solo, sin nadie al lado. Marcas de agua oscura alrededor del balde. El vidrio tiene polvo y una huella de dedo. Luz amarilla de atardecer, sombra del muro cubriendo la mitad del patio. Plano fijo absoluto, lente 35mm, foco que corrige del vidrio al patio.",
+     "audio_prompt": "agua cayendo despacio sobre tierra, raspado leve de plástico contra piedra, eco de patio cerrado",
+     "continuidad": "balde plástico azul en la tierra, vidrio sucio con huella, media sombra del muro"},
+
+    {"n": 7, "t_ini": 48.0, "t_fin": 56.0, "enunciados": [12, 13],
+     "prompt": "Grabado con celular 2017, video comprimido con grano. Plano cerrado del piso de baldosa gris de la cocina, junto al marco de la puerta del patio: se ven dos huellas mojadas de zapato de hombre, entrando hacia la cocina, y un charco pequeño y turbio que se seca en el borde. Nadie en cuadro. Luz amarilla baja, ya casi anaranjada, cayendo de lado. Plano fijo, lente 35mm, ligero temblor de mano, foco impreciso al principio.",
+     "audio_prompt": "casa en silencio, una nevera prendiendo, una reja cerrándose lejos en la calle, sin voces",
+     "continuidad": "huellas mojadas de zapato, charco turbio, baldosa gris"},
+
+    {"n": 8, "t_ini": 56.0, "t_fin": 64.0, "enunciados": [14, 15],
+     "prompt": "Grabado con celular 2017, imagen oscura con grano fuerte por poca luz. Patio trasero de tierra pelada al anochecer, visto desde la puerta de la cocina: la luz del día ya se fue, solo llega el resplandor amarillo de un bombillo interior desde atrás de la cámara, que alarga la sombra de la persona que graba sobre la tierra. Ni una sola planta, ni matera, ni hoja en todo el cuadro. La tierra brilla apenas por la humedad. Plano fijo absoluto, sin movimiento, lente 28mm.",
+     "audio_prompt": "noche de barrio: grillos lejanos, un perro a dos cuadras, viento suave en un muro, silencio dominante",
+     "continuidad": "patio de tierra húmeda sin plantas, sombra del que graba, luz de bombillo interior"}
+  ]
+}

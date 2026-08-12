@@ -1,0 +1,8 @@
+{
+  "serie": "ruta-12",
+  "partes_totales": 8,
+  "ultima_producida": 0,
+  "paquetes_listos": [1],
+  "nota": "Los paquetes de producción (guion/planos/voz/sonido) de las partes 2 a 8 los genera la rutina diaria con los agentes 01-05, usando guiones.md como base.",
+  "actualizado": "2026-08-12"
+}

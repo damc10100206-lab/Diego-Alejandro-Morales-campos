@@ -1,0 +1,47 @@
+{
+  "serie_slug": "ruta-12",
+  "parte": 1,
+  "continuidad_global": "Bus escolar amarillo viejo modelo años 90, sillas de cuero café rajado con cinta aislante. Madrugada, 6:20 a.m., cielo azul oscuro, luz naranja de poste de sodio entrando por las ventanas. Llovió: asfalto mojado. Niña de 9 años con saco de colegio azul oscuro y morral rojo. Chofer: hombre de 58, ruana gris, gorra de tela. Grabado con celular de 2014: video comprimido, grano visible, temblor leve de mano. Nunca se ve una cara completa hablando de frente.",
+  "negativos_globales": "sin texto, sin letras, sin logos, sin subtítulos, sin marcas de agua, sin caras en primer plano hablando a cámara, sin movimiento de cámara cinematográfico, sin dron, sin slow motion, sin colores saturados, sin sangre, sin armas visibles en detalle, sin multitudes, sin manos manipulando objetos pequeños, sin look publicitario, sin iluminación de estudio",
+  "planos": [
+    {"n": 1, "t_ini": 0.0, "t_fin": 8.0, "enunciados": [1, 2],
+     "prompt": "Grabado con celular de 2014, video comprimido, grano visible, temblor leve de mano. Interior de un bus escolar amarillo viejo visto desde la última silla: filas de sillas de cuero café rajado con cinta aislante, pasillo estrecho. Plano fijo hacia adelante desde la altura del pecho de un niño sentado, lente 28mm. Madrugada de 6:20 a.m., oscuro, entra luz naranja de un poste de sodio por las ventanas empañadas. Vidrios con gotas de lluvia por dentro. La cámara casi no se mueve, solo una corrección leve de encuadre. Nadie habla.",
+     "audio_prompt": "motor diésel en ralentí, vibración metálica del piso del bus, lluvia fina en el techo de latón, sin música, sin voces",
+     "continuidad": "bus interior, luz sodio naranja, ventanas empañadas"},
+
+    {"n": 2, "t_ini": 8.0, "t_fin": 16.0, "enunciados": [3, 4],
+     "prompt": "Grabado con celular de 2014, video comprimido, grano visible. Vista a través de la ventana empañada de un bus escolar hacia la calle: andén mojado, un poste de luz de sodio naranja, una reja de casa cerrada, cielo azul muy oscuro de las 6:20 a.m. La silueta de un hombre adulto de espaldas, con chaqueta gris, se acerca a la puerta del bus. Solo se ve su espalda y su hombro. Plano fijo desde dentro, lente 28mm, foco que busca y corrige. Sin movimiento de cámara.",
+     "audio_prompt": "puerta neumática de bus abriéndose, lluvia fina en asfalto, motor en ralentí de fondo, un perro ladrando muy lejos",
+     "continuidad": "hombre de chaqueta gris de espaldas, andén mojado, poste naranja"},
+
+    {"n": 3, "t_ini": 16.0, "t_fin": 24.0, "enunciados": [5],
+     "prompt": "Grabado con celular de 2014, imagen comprimida y con grano. Detalle del espejo retrovisor interior de un bus escolar viejo: en el espejo se ve borrosa y desenfocada la parte de atrás del bus con niños sentados quietos. Del brazo del espejo cuelga una moña de niña de tela rosada, vieja y descolorida, amarrada con un nudo apretado; se mueve apenas con la vibración del motor. Luz naranja de poste entrando de lado. Plano fijo muy cerrado, lente 35mm, ligero temblor de mano.",
+     "audio_prompt": "vibración del motor, un cinturón metálico golpeando suave, respiración de un niño cerca del micrófono",
+     "continuidad": "moña rosada en el espejo, luz naranja lateral"},
+
+    {"n": 4, "t_ini": 24.0, "t_fin": 32.0, "enunciados": [6],
+     "prompt": "Grabado con celular de 2014, video oscuro y comprimido, grano fuerte por poca luz. Plano cerrado del piso de goma sucio de un bus escolar junto al asiento del conductor: se ve la parte baja del asiento, un termo metálico caído de lado, y la sombra de un brazo que se mueve hacia abajo, fuera de cuadro. No se ve ningún objeto en la mano, no se ve arma. Luz naranja muy débil. Plano fijo, casi estático, foco impreciso.",
+     "audio_prompt": "roce de tela, un objeto metálico deslizándose sobre plástico, motor en ralentí, silencio de voces",
+     "continuidad": "asiento del conductor, termo metálico, piso de goma sucio"},
+
+    {"n": 5, "t_ini": 32.0, "t_fin": 40.0, "enunciados": [7, 8],
+     "prompt": "Grabado con celular de 2014, video comprimido con grano. Interior de bus escolar visto desde adelante hacia atrás: cinco niños de 8 a 11 años sentados completamente quietos en las sillas, mirando hacia la cámara sin expresión, ninguno habla, ninguno se mueve. Uniformes de colegio azul oscuro. Luz naranja de poste de sodio por las ventanas. Plano medio fijo, lente 28mm, altura de pecho. La cámara tiembla apenas. Nadie grita, nadie corre.",
+     "audio_prompt": "silencio casi total, motor en ralentí muy bajo, lluvia fina en el techo, una respiración temblorosa cerca",
+     "continuidad": "niños quietos con uniforme azul, luz naranja"},
+
+    {"n": 6, "t_ini": 40.0, "t_fin": 48.0, "enunciados": [9],
+     "prompt": "Grabado con celular de 2014, imagen oscura con grano. Plano desde dentro del bus, a través del parabrisas mojado, hacia el andén: la silueta de espaldas de un hombre de 58 años con ruana gris y gorra de tela, de pie, completamente inmóvil, mirando hacia el suelo fuera de cuadro. Los brazos caídos a los lados del cuerpo. No se ve nada en sus manos. Luz naranja de poste detrás de él, contraluz sucio, gotas en el vidrio desenfocando la silueta. Plano fijo, sin movimiento.",
+     "audio_prompt": "lluvia fina, motor en ralentí, un radio de bus con estática muy baja, ninguna voz",
+     "continuidad": "chofer de ruana gris y gorra, contraluz naranja, parabrisas mojado"},
+
+    {"n": 7, "t_ini": 48.0, "t_fin": 56.0, "enunciados": [10, 11],
+     "prompt": "Grabado con celular de 2014, video comprimido, grano visible. Plano bajo desde dentro del bus a través del vidrio de la puerta abierta: se ve el andén mojado y las rodillas y los zapatos de un hombre mayor que se agacha, de espaldas. Al fondo, desenfocado, el borde de una chaqueta gris en el suelo. Nada explícito, sin sangre. Luz naranja de sodio reflejada en el charco del andén. Plano fijo, lente 28mm, ligero temblor, foco que busca.",
+     "audio_prompt": "roce de rodillas contra el andén mojado, lluvia fina, respiración pesada de hombre mayor, motor lejano",
+     "continuidad": "andén mojado con charco, chaqueta gris en el suelo, luz naranja"},
+
+    {"n": 8, "t_ini": 56.0, "t_fin": 64.0, "enunciados": [12, 13, 14],
+     "prompt": "Grabado con celular de 2014, imagen con grano y compresión. Plano cerrado de una ventana de bus empañada desde dentro, con la huella de una mano pequeña de niña marcada en el vaho. Detrás del vidrio, muy desenfocada, la luz naranja del poste y un movimiento lento que no se distingue. La mano de la niña no aparece en cuadro. La imagen se queda quieta. Plano fijo absoluto, sin movimiento de cámara, lente 35mm.",
+     "audio_prompt": "lluvia fina en el techo metálico, motor en ralentí bajando de revoluciones, silencio de voces, un pitido lejano de otro bus",
+     "continuidad": "ventana empañada, huella de mano de niña, luz naranja desenfocada"}
+  ]
+}

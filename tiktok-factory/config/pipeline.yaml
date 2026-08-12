@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────
+#  Configuración maestra de producción
+# ─────────────────────────────────────────────────────────────
+
+produccion:
+  videos_por_dia: 2
+  partes_por_serie: 8
+  duracion_objetivo_seg: 60
+  duracion_min_seg: 48
+  duracion_max_seg: 75
+  idioma: es-CO            # español Colombia (neutro latino en la locución)
+  formato: 1080x1920       # 9:16 vertical
+  fps: 30
+
+video:
+  proveedor: veo           # veo | kling | runway  (ver src/providers/)
+  clip_seg: 8              # duración nativa por clip del modelo
+  audio_nativo: true       # Veo entrega diálogo + ambiente sincronizados
+  reintentos_por_clip: 3
+  # Si un clip falla el QA de realismo 3 veces, el plano se reescribe
+  # (nuevo prompt) antes de un 4º intento.
+
+voz:
+  proveedor: gemini_tts    # gemini_tts | elevenlabs
+  # Anti "voz de robot": la narración NUNCA se genera como un solo bloque.
+  # Se parte en enunciados cortos con dirección actoral individual.
+  max_palabras_por_enunciado: 14
+  variacion_ritmo: true    # ±8% de velocidad alternada entre enunciados
+  respiraciones: true      # inserta respiración real antes de frases largas
+  room_tone: true          # cama de ambiente para que no suene "en el vacío"
+  perfil_por_defecto: narrador_hombre_25_bogota
+
+audio:
+  loudness_objetivo_lufs: -14.0    # estándar de plataformas sociales
+  tolerancia_lufs: 1.5
+  true_peak_max_dbtp: -1.0
+  silencio_max_seg: 1.2            # huecos más largos = corte mal hecho
+  ambiente_db: -32                 # nivel de la cama ambiental bajo la voz
+  ducking: true                    # la música baja cuando entra la voz
+
+qa:
+  # Puerta de calidad: si CUALQUIER dimensión queda por debajo del mínimo,
+  # el video NO se empaqueta y el plano culpable se regenera.
+  minimo_para_publicar: 9.0
+  dimensiones:
+    realismo_visual: 9.0
+    realismo_audio: 9.0
+    humanidad_de_la_voz: 9.5     # la más estricta: cero tolerancia a TTS plano
+    gancho_3_segundos: 9.0
+    coherencia_narrativa: 9.0
+    cliffhanger: 9.0
+  max_ciclos_de_correccion: 3
+
+drive:
+  # Estructura: RAIZ / YYYY-MM-DD / <serie>-parte-NN / (video, audio, guion, QA)
+  un_video_por_carpeta: true
+  subir_intermedios: true   # clips y pistas sueltas, para poder reeditar a mano

@@ -1,0 +1,50 @@
+# Perfiles de voz. Cada serie fija UN perfil y no lo cambia nunca:
+# la voz es la marca del canal.
+
+perfiles:
+  narrador_hombre_25_bogota:
+    descripcion: >
+      Hombre de 25 años, Bogotá. Voz media-grave, algo de cansancio,
+      cero pose de locutor. Habla como si le estuviera contando esto a
+      un amigo en una tienda, no a una cámara.
+    gemini_tts_voice: Charon        # verificar catálogo vigente antes de correr
+    elevenlabs_voice_id: ${ELEVENLABS_VOICE_ID}
+    velocidad_base: 0.95
+    pitch_semitonos: -0.5
+    room_tone: cuarto_pequeno_nevera
+    reverb_seg: 0.18
+    notas_direccion: >
+      Nunca subir la voz. El miedo lo pone el contenido, no el volumen.
+      Terminar frases hacia abajo, pero no todas: romper el patrón cada 3.
+
+  narradora_mujer_30_neutra:
+    descripcion: >
+      Mujer de 30, español latino neutro. Voz clara con un temblor mínimo
+      cuando la historia aprieta. Buena para historias de casa y familia.
+    gemini_tts_voice: Aoede
+    elevenlabs_voice_id:
+    velocidad_base: 0.97
+    pitch_semitonos: 0.0
+    room_tone: sala_con_ventana_a_la_calle
+    reverb_seg: 0.22
+    notas_direccion: >
+      Susurro en las confesiones. Nunca llorar: la contención da más miedo.
+
+  testigo_hombre_50:
+    descripcion: >
+      Hombre de 50, voz gastada, fumador. Solo para partes donde habla
+      otro personaje (parte 5 y 7 típicamente). Contraste con el narrador.
+    gemini_tts_voice: Fenrir
+    elevenlabs_voice_id:
+    velocidad_base: 0.90
+    pitch_semitonos: -2.0
+    room_tone: patio_exterior_lejano
+    reverb_seg: 0.30
+    notas_direccion: Pausas largas. Deja frases sin terminar.
+
+room_tones:
+  cuarto_pequeno_nevera: "zumbido de nevera lejano, sin tráfico, muy bajo"
+  sala_con_ventana_a_la_calle: "tráfico lejano intermitente, un perro a lo lejos"
+  patio_exterior_lejano: "viento suave, grillos, una reja de vez en cuando"
+  bus_interior: "motor diésel en ralentí, vibración de latón, lluvia en techo"
+  clinica_madrugada: "ventilación constante, un pitido lejano cada 4 s"

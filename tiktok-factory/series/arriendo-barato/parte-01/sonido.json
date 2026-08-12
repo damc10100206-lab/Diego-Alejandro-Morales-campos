@@ -1,0 +1,41 @@
+{
+  "serie_slug": "arriendo-barato",
+  "parte": 1,
+  "principio": "El miedo de esta parte es doméstico. Todo lo que se oye es lo que se oye en una casa de barrio un domingo: nevera, televisor a través de la pared, una reja. El único sonido antinatural es el agua cayendo en tierra donde no hay plantas.",
+  "ambiente_base": {
+    "descripcion": "casa de barrio en domingo de tarde: tráfico lejano intermitente, un televisor a través de la pared del vecino, nevera prendiendo cada tanto",
+    "db": -32,
+    "fuente": "audio nativo de los clips de Veo, highpass 60 Hz, nivel bajado",
+    "continuo": true
+  },
+  "efectos": [
+    {"t": 3.2, "descripcion": "moto pasando por la calle, lejana, sin estridencia", "db": -26, "duracion": 2.0},
+    {"t": 14.8, "descripcion": "caja de cartón arrastrada sobre baldosa", "db": -24, "duracion": 0.8},
+    {"t": 22.4, "descripcion": "eco corto de patio cerrado, una gotera lenta cada 2 s", "db": -28, "duracion": 5.0},
+    {"t": 26.0, "descripcion": "llaves tintineando una sola vez", "db": -23, "duracion": 0.5},
+    {"t": 28.6, "descripcion": "timbre de casa, viejo, de dos notas, sonando una vez", "db": -20, "duracion": 1.2},
+    {"t": 32.2, "descripcion": "reja metálica abriéndose y cerrándose", "db": -22, "duracion": 1.8},
+    {"t": 33.4, "descripcion": "pasos de zapato de cuero sobre baldosa, alejándose por un pasillo", "db": -23, "duracion": 3.0},
+    {"t": 36.4, "descripcion": "agua cayendo despacio de un balde sobre tierra, sin salpicar", "db": -21, "duracion": 4.5},
+    {"t": 41.0, "descripcion": "plástico raspando contra piedra, una vez", "db": -25, "duracion": 0.7},
+    {"t": 46.8, "descripcion": "nevera arrancando en una cocina vacía", "db": -27, "duracion": 3.0},
+    {"t": 55.0, "descripcion": "grillos de anochecer y un perro a dos cuadras", "db": -29, "duracion": 6.0}
+  ],
+  "tension": [
+    {"t_ini": 34.0, "t_fin": 42.0, "tipo": "tono_sostenido_creciente", "frecuencia_hz": 52, "db_ini": -40, "db_fin": -32,
+     "nota": "sube mientras se oye el agua; el espectador no debe identificar el tono"},
+    {"t_ini": 42.0, "t_fin": 42.4, "tipo": "corte_total", "nota": "todo se apaga antes de 'olía a cloro'"},
+    {"t_ini": 50.0, "t_fin": 58.5, "tipo": "tono_sostenido_creciente", "frecuencia_hz": 45, "db_ini": -38, "db_fin": -31}
+  ],
+  "silencios_dramaticos": [
+    {"t": 42.4, "duracion": 0.3, "relleno": "room_tone", "nota": "antes de la frase del cloro"},
+    {"t": 53.8, "duracion": 0.8, "relleno": "room_tone", "nota": "antes de la revelación final"}
+  ],
+  "prohibido": [
+    "golpe braam en los cortes",
+    "música con melodía",
+    "sonido de puerta chirriando de película de terror",
+    "silencio digital absoluto en cualquier punto"
+  ],
+  "master": {"lufs": -14.0, "true_peak_dbtp": -1.0, "lra_minimo": 6.0}
+}
